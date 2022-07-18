@@ -114,7 +114,7 @@ Config.PhoneApplications = {
         slot = 10,
         Alerts = 0,
     },
-    ["houses"] = {
+    --[[["houses"] = {
         app = "houses",
         color = "#27ae60",
         icon = "fas fa-home",
@@ -123,7 +123,7 @@ Config.PhoneApplications = {
         blockedjobs = {},
         slot = 11,
         Alerts = 0,
-    },
+    },--]]
     ["meos"] = {
         app = "meos",
         color = "#004682",
@@ -131,10 +131,10 @@ Config.PhoneApplications = {
         tooltipText = "MDT",
         job = "police",
         blockedjobs = {},
-        slot = 13,
+        slot = 12,
         Alerts = 0,
     },
-    ["lawyers"] = {
+    --[[["lawyers"] = {
         app = "lawyers",
         color = "#26d4ce",
         icon = "fas fa-briefcase",
@@ -144,7 +144,7 @@ Config.PhoneApplications = {
         blockedjobs = {},
         slot = 12,
         Alerts = 0,
-    },
+    },--]]
     ["gallery"] = {
         app = "gallery",
         color = "#AC1D2C",
@@ -153,7 +153,7 @@ Config.PhoneApplications = {
         tooltipPos = "bottom",
         job = false,
         blockedjobs = {},
-        slot = 16,
+        slot = 13,
         Alerts = 0,
     },
     ["camera"] = {
@@ -164,7 +164,7 @@ Config.PhoneApplications = {
         tooltipPos = "bottom",
         job = false,
         blockedjobs = {},
-        slot = 15,
+        slot = 14,
         Alerts = 0,
     },
 }

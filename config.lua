@@ -104,7 +104,7 @@ Config.PhoneApplications = {
         slot = 9,
         Alerts = 0,
     },
-    ["racing"] = {
+    --[[["racing"] = {
         app = "racing",
         color = "#353b48",
         icon = "fas fa-flag-checkered",
@@ -113,7 +113,7 @@ Config.PhoneApplications = {
         blockedjobs = {},
         slot = 10,
         Alerts = 0,
-    },
+    },--]]
     --[[["houses"] = {
         app = "houses",
         color = "#27ae60",
@@ -131,7 +131,7 @@ Config.PhoneApplications = {
         tooltipText = "MDT",
         job = "police",
         blockedjobs = {},
-        slot = 12,
+        slot = 13,
         Alerts = 0,
     },
     --[[["lawyers"] = {
@@ -153,7 +153,7 @@ Config.PhoneApplications = {
         tooltipPos = "bottom",
         job = false,
         blockedjobs = {},
-        slot = 13,
+        slot = 10,
         Alerts = 0,
     },
     ["camera"] = {
@@ -164,7 +164,7 @@ Config.PhoneApplications = {
         tooltipPos = "bottom",
         job = false,
         blockedjobs = {},
-        slot = 14,
+        slot = 11,
         Alerts = 0,
     },
 }
@@ -180,7 +180,7 @@ Config.StoreApps = {
         style = "";
         job = false,
         blockedjobs = {},
-        slot = 15,
+        slot = 14,
         Alerts = 0,
         password = true,
         creator = "QBCore",
